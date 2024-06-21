@@ -31,8 +31,6 @@ with col1:
     st.pyplot(plt)
     
     st.write("""
-    ### Deskripsi:
-    
     <div style="text-align: justify;">
         <p>Grafik di atas menjelaskan perbandingan Rating film berdasarkan Gross World. Dapat diambil kesimpulan bahwa film dengan
         rating PG-13 mendapatkan gross world yang paling tinggi. Rating film Approved dan dan Not Rated tidak menampilkan bar chart
@@ -58,8 +56,6 @@ with col1:
     st.pyplot(fig)
     
     st.write("""
-    ### Deskripsi:
-    
     <div style="text-align: justify;">
         <p>Grafik di atas menjelaskan komposisi rating film yang ada di top 50 IMDB. 
         Diketahui bahwa komposisi top 50 movies yang paling banyak pada IMBD adalah film 
@@ -82,8 +78,6 @@ with col2:
     st.pyplot(plt)
     
     st.write("""
-    ### Deskripsi:
-    
     <div style="text-align: justify;">
         <p>Grafik di atas memperlihatkan apakah terdapat hubungan antara Gross US dan Gross World. 
         Hubungan tersebut memiliki korelasi yang positif dimana film yang mendapatkan gross US tinggi 
@@ -102,8 +96,6 @@ with col2:
     st.pyplot(plt)
     
     st.write("""
-    ### Deskripsi:
-    
     <div style="text-align: justify;">
         <p>Grafik di atas menjelaskan distribusi gross world yang didapatkan dari setiap top 50 film.
         Gross world dengan rentan 0-100,000,000 memiliki frekuensi yang paling tinggi dibandingankan 
