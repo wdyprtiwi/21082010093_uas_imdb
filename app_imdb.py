@@ -13,7 +13,7 @@ url = "https://raw.githubusercontent.com/wdyprtiwi/davis-2024/main/imdb_combined
 df_imbd = pd.read_csv(url)
 
 st.write("### Preview Data Top 50 Movies on IMDB")
-st.dataframe(df_imbd.head(10))
+st.dataframe(df_imbd.head(5))
 
 # Memisahkan layar dengan st.columns untuk 2 kolom
 col1, col2 = st.columns(2)
