@@ -66,7 +66,7 @@ with col1:
 
 # Kolom kanan: Relationship dan Distribution
 with col2:
-    st.write("### Relationship of Duration and Budget")
+    st.write("### Relationship of Gross US and Gross World")
     
     # Scatter plot untuk Relationship between Gross US and Gross World
     plt.figure(figsize=(8, 6))
