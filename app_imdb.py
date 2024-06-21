@@ -59,7 +59,8 @@ with col1:
     <div style="text-align: justify;">
         <p>Grafik di atas menjelaskan komposisi rating film yang ada di top 50 IMDB. 
         Diketahui bahwa komposisi top 50 movies yang paling banyak pada IMBD adalah film 
-        dengan rating R kemudian disusul dengan PG-13, dan PG.</p>
+        dengan rating R kemudian disusul dengan PG-13, dan PG. Dari grafik tersebut kita 
+        bisa tahu bahwa masyarakat banyak yang menyukai film dengan rating R.</p>
     </div>
     """, unsafe_allow_html=True)
 
@@ -100,7 +101,6 @@ with col2:
         <p>Grafik di atas menjelaskan distribusi gross world yang didapatkan dari setiap top 50 film.
         Gross world dengan rentan 0-100,000,000 memiliki frekuensi yang paling tinggi dibandingankan 
         dengan yang lainnya. Grafik ini memberikan insight bahwa banyak film top yang tidak mendapatkan 
-        gross world begitu banyak, yang artinya film top tidak dipengaruhi oleh gross world yang didapatkan. 
-        Dari grafik tersebut kita bisa tahu bahwa masyarakat banyak yang menyukai film dengan rating R.</p>
+        gross world begitu banyak, yang artinya film top tidak dipengaruhi oleh gross world yang didapatkan.</p>
         </div>
     """, unsafe_allow_html=True)
