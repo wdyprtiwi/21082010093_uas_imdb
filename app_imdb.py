@@ -36,7 +36,7 @@ with col1:
     <div style="text-align: justify;">
         <p>Grafik di atas menjelaskan perbandingan Rating film berdasarkan Gross World. Dapat diambil kesimpulan bahwa film dengan
         rating PG-13 mendapatkan gross world yang paling tinggi. Rating film Approved dan dan Not Rated tidak menampilkan bar chart
-        karena perbandingan yang begitu besar dengan rating film yang lainnya.</p>
+        karena perbedaan perbandingan yang begitu besar dengan rating film yang lainnya.</p>
     </div>
     """, unsafe_allow_html=True)
     
