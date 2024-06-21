@@ -99,6 +99,7 @@ with col2:
     <div style="text-align: justify;">
         <p>Grafik di atas menjelaskan distribusi gross world yang didapatkan dari setiap top 50 film.
         Gross world dengan rentan 0-100,000,000 memiliki frekuensi yang paling tinggi dibandingankan 
-        dengan yang lainnya.</p>
+        dengan yang lainnya. Grafik ini memberikan insight bahwa banyak film top yang tidak mendapatkan 
+        gross world begitu banyak, yang artinya film top tidak dipengaruhi oleh gross world yang didapatkan.</p>
         </div>
     """, unsafe_allow_html=True)
