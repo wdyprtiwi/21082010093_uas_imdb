@@ -31,9 +31,14 @@ with col1:
     st.pyplot(plt)
     
     st.write("""
-    Grafik di atas menjelaskan perbandingan Gross World berdasarkan Rating film. Dapat diambil kesimpulan bahwa film dengan
-    rating PG-13 mendapatkan gross world yang paling tinggi.
-    """)
+    ### Deskripsi:
+    
+    <div style="text-align: justify;">
+        <p>Grafik di atas menjelaskan perbandingan Gross World berdasarkan Rating film. Dapat diambil kesimpulan bahwa film dengan
+        rating PG-13 mendapatkan gross world yang paling tinggi. Rating film Approved dan dan Not Rated tidak menampilkan bar chart
+        karena perbandingan yang begitu besar dengan rating film yang lainnya.</p>
+    </div>
+    """, unsafe_allow_html=True)
     
     # Donut chart untuk Composition of Films by Rating
     st.write("### Composition of Films by Rating")
@@ -53,9 +58,14 @@ with col1:
     st.pyplot(fig)
     
     st.write("""
-    Grafik di atas menjelaskan komposisi rating film yang ada di top 50 IMDB. 
-    Diketahui bahwa komposisi top 50 movies yang paling banyak pada IMBD adalah film dengan rating R.
-    """)
+    ### Deskripsi:
+    
+    <div style="text-align: justify;">
+        <p>Grafik di atas menjelaskan komposisi rating film yang ada di top 50 IMDB. 
+        Diketahui bahwa komposisi top 50 movies yang paling banyak pada IMBD adalah film 
+        dengan rating R kemudian disusul dengan PG-13, dan PG.</p>
+    </div>
+    """, unsafe_allow_html=True)
 
 
 # Kolom kanan: Relationship dan Distribution
@@ -72,10 +82,14 @@ with col2:
     st.pyplot(plt)
     
     st.write("""
-    Grafik di atas memperlihatkan apakah terdapat hubungan antara Gross US dan Gross World. 
-    Hubungan tersebut memiliki korelasi yang positif dimana film yang mendapatkan gross US tinggi 
-    maka mendapatkan gross world yang tinggi juga.
-    """)
+    ### Deskripsi:
+    
+    <div style="text-align: justify;">
+        <p>Grafik di atas memperlihatkan apakah terdapat hubungan antara Gross US dan Gross World. 
+        Hubungan tersebut memiliki korelasi yang positif dimana film yang mendapatkan gross US tinggi 
+        maka film tersebut mendapatkan gross world yang tinggi juga.</p>
+    </div>
+    """, unsafe_allow_html=True)
     
     # Histogram untuk Distribution of Gross World
     st.write("### Distribution of Gross World")
@@ -88,6 +102,11 @@ with col2:
     st.pyplot(plt)
     
     st.write("""
-    Grafik di atas menjelaskan distribusi gross world yang didapatkan dari setiap top 50 film.
-    Gross world dengan rentan 0-100,000,000 memiliki frekuensi yang paling tinggi dibandingankan dengan yang lainnya.
-    """)
+    ### Deskripsi:
+    
+    <div style="text-align: justify;">
+        <p>Grafik di atas menjelaskan distribusi gross world yang didapatkan dari setiap top 50 film.
+        Gross world dengan rentan 0-100,000,000 memiliki frekuensi yang paling tinggi dibandingankan 
+        dengan yang lainnya.</p>
+        </div>
+    """, unsafe_allow_html=True)
