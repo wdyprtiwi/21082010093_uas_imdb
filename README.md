@@ -7,4 +7,4 @@ NPM     : 21082010093
 
 Paralel : Data Visualisasi Par A
 
-Untuk melihat tampilan pada streamlit app dapat diakses pada: [app_imdb.py]()
+Untuk melihat tampilan pada streamlit app dapat diakses pada: [app_imdb.py](https://093-uas-imdb.streamlit.app/)
