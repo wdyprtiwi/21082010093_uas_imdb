@@ -89,7 +89,7 @@ with col2:
     # Histogram untuk Distribution of Gross World
     st.write("### Distribution of Gross World")
 
-    plt.figure(figsize=(8, 6))
+    plt.figure(figsize=(4, 4))
     sns.histplot(df_imbd['Gross_World'], bins=10, kde=True)
     plt.gca().xaxis.set_major_formatter(ticker.FuncFormatter(lambda x, pos: '{:,.0f}'.format(x)))
     plt.xlabel('Gross World')
