@@ -47,7 +47,7 @@ with col1:
     colors = ['#FF0000', '#0000FF', '#FFFF00', '#ADFF2F', '#FFA500', '#8A2BE2']
     explode = (0.05,) * len(labels)  # Meledakkan semua bagian
     
-    fig, ax = plt.subplots(figsize=(8, 6))
+    fig, ax = plt.subplots(figsize=(4, 6))
     ax.pie(sizes, colors=colors, labels=labels,
            autopct='%1.1f%%', pctdistance=0.85, explode=explode)
     centre_circle = plt.Circle((0, 0), 0.70, fc='white')
